@@ -3,6 +3,9 @@ from FUNCTIONS import get_data, generate_df, get_freq, get_pos_neg
 import pandas as pd
 import plotly.express as px
 
+nltk.download('words')
+nltk.download('stopwords')
+
 
 st.title('Ebay Sentiment Analysis Generator')
 st.write("This app helps you to see the the sentiment of ebay product review with just one click, you just need to insert the product link")
