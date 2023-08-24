@@ -2,6 +2,7 @@ import streamlit as st
 from FUNCTIONS import get_data, generate_df, get_freq, get_pos_neg
 import pandas as pd
 import plotly.express as px
+import nltk
 
 nltk.download('words')
 nltk.download('stopwords')
