@@ -7,6 +7,7 @@ import nltk
 nltk.download('words')
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('vader_lexicon')
 
 
 st.title('Ebay Sentiment Analysis Generator')
